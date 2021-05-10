@@ -1,11 +1,17 @@
 Install from TWRP-Recovery over ADB:
 
 adb shell reboot recovery
+
 adb shell "mount -o rw /system"
+
 adb push "bootanimation.zip" /sdcard/bootanimation.zip
+
 adb shell "mv /system/media/bootanimation.zip /system/media/bootanimation.old"
+
 adb shell "rm /system/media/bootanimation.zip"
+
 adb shell "cp /sdcard/bootanimation.zip /system/media/bootanimation.zip"
+
 adb shell "chmod 644 /system/media/bootanimation.zip"
 
 
