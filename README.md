@@ -14,7 +14,9 @@ adb shell "cp /sdcard/bootanimation.zip /system/media/bootanimation.zip"
 
 adb shell "chmod 644 /system/media/bootanimation.zip"
 
-
+.
+--------------------------------------------------------------------------------------------
+.
 
 If you have some magisk modules active check the file in the directory:
 
